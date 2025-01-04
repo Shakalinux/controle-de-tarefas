@@ -1,0 +1,19 @@
+@media (max-width: 576px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+    .form-label {
+        font-size: 0.9rem;
+    }
+    .btn {
+        width: 100%;
+    }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+    h2 {
+        font-size: 1.8rem;
+    }
+    .btn {
+        width: 50%;
+    }
+}

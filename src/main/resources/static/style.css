@@ -1,0 +1,147 @@
+#main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.card {
+    width: 250px;
+    height: 100%;
+    min-height: 350px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 60px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+.card .btn {
+    margin-top: auto;
+}
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.row {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-lg-4, .col-md-6, .col-sm-12 {
+    padding: 0 15px;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+
+
+#wrapper {
+    display: flex;
+    width: 100%;
+}
+
+
+#sidebar-wrapper {
+    width: 250px;
+    height: 100vh;
+    left: 0;
+    background-color: #2C3E50;
+    transition: margin-left 0.3s ease;
+    color: white;
+}
+
+.sidebar-heading {
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: black;
+}
+
+.list-group-item {
+    background-color: transparent;
+    color: black;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.list-group-item:hover {
+    background-color: #649ed8;
+}
+
+
+#page-content-wrapper {
+    flex: 1;
+    padding: 20px;
+    background-color: #F4F6F7;
+    color: black;
+}
+
+#page-content-wrapper h2{
+    color: #000;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+
+.toggled #sidebar-wrapper {
+    margin-left: -250px;
+}
+
+
+.navbar {
+    background-color: #1A252F;
+    color: white;
+}
+
+.navbar h1 {
+    margin-left: 15px;
+    color: #ECF0F1;
+}
+
+
+#menu-toggle {
+    background-color: #ECF0F1;
+    color: #1A252F;
+    border: none;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#menu-toggle:hover {
+    background-color: #BDC3C7;
+}
+
+
+

@@ -1,0 +1,19 @@
+body {
+    background: #f8f9fa;
+}
+
+#cadastro {
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    max-width: 800px;
+    width: 100%;
+}

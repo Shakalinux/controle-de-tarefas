@@ -1,0 +1,26 @@
+.profile-imagem-primary img {
+    width: 100%;
+    height: auto;
+    max-height: 290px;
+    object-fit: cover;
+    object-position: center;
+}
+.hidden {
+    display: none;
+}
+
+.profile-imagem-primary {
+    transition: opacity 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .profile-imagem-primary img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .profile-info h1 {
+        font-size: 1.5rem;
+    }
+}
+
